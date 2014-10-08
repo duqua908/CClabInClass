@@ -1,0 +1,17 @@
+{
+    "contents" : "housing <- read.csv(\"F:/MyFiles/External HD files/Academic Work/DUE-work/Thesis Semester1/R'/housing.csv\", stringsAsFactors=FALSE)\nView(housing)\n\n",
+    "created" : 1411073612098.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2043324943",
+    "id" : "33F7BF83",
+    "lastKnownWriteTime" : 1411076431,
+    "path" : "F:/MyFiles/External HD files/Academic Work/DUE-work/Thesis Semester1/R'/Homework/Homework2.R",
+    "project_path" : "Homework2.R",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "source_on_save" : false,
+    "type" : "r_source"
+}
