@@ -1,0 +1,102 @@
+﻿Build started 11/4/2014 4:05:43 PM.
+     1>Project "F:\MyFiles\External HD files\Academic Work\DUE-work\Thesis Semester1\CClab\of_v0.8.4_vs_release\apps\myApps\Homework2_animation\emptyExample.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         F:\Programs\VC\bin\CL.exe /c /I..\..\..\libs\openFrameworks /I..\..\..\libs\openFrameworks\graphics /I..\..\..\libs\openFrameworks\app /I..\..\..\libs\openFrameworks\sound /I..\..\..\libs\openFrameworks\utils /I..\..\..\libs\openFrameworks\communication /I..\..\..\libs\openFrameworks\video /I..\..\..\libs\openFrameworks\types /I..\..\..\libs\openFrameworks\math /I..\..\..\libs\openFrameworks\3d /I..\..\..\libs\openFrameworks\gl /I..\..\..\libs\openFrameworks\events /I..\..\..\libs\glut\include /I..\..\..\libs\rtAudio\include /I..\..\..\libs\quicktime\include /I..\..\..\libs\freetype\include /I..\..\..\libs\freetype\include\freetype2 /I..\..\..\libs\freeImage\include /I..\..\..\libs\fmodex\include /I..\..\..\libs\videoInput\include /I..\..\..\libs\glew\include\ /I..\..\..\libs\glu\include /I..\..\..\libs\tess2\include /I..\..\..\libs\cairo\include\cairo /I..\..\..\libs\poco\include /I..\..\..\libs\glfw\include /I..\..\..\libs\openssl\include /I..\..\..\addons /Isrc /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D POCO_STATIC /D CAIRO_WIN32_STATIC_BUILD /D DISABLE_SOME_FLOATING_POINT /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"obj\Debug\\" /Fd"obj\Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Marbles.cpp src\main.cpp src\ofApp.cpp
+         ofApp.cpp
+     1>f:\myfiles\external hd files\academic work\due-work\thesis semester1\cclab\of_v0.8.4_vs_release\libs\poco\include\poco\streamconverter.h(126): warning C4250: 'Poco::InputStreamConverter' : inherits 'std::basic_istream<_Elem,_Traits>::std::basic_istream<_Elem,_Traits>::_Add_vtordisp1' via dominance
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 f:\programs\vc\include\istream(74) : see declaration of 'std::basic_istream<_Elem,_Traits>::_Add_vtordisp1'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+     1>f:\myfiles\external hd files\academic work\due-work\thesis semester1\cclab\of_v0.8.4_vs_release\libs\poco\include\poco\streamconverter.h(144): warning C4250: 'Poco::OutputStreamConverter' : inherits 'std::basic_ostream<_Elem,_Traits>::std::basic_ostream<_Elem,_Traits>::_Add_vtordisp2' via dominance
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 f:\programs\vc\include\ostream(90) : see declaration of 'std::basic_ostream<_Elem,_Traits>::_Add_vtordisp2'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+     1>f:\myfiles\external hd files\academic work\due-work\thesis semester1\cclab\of_v0.8.4_vs_release\apps\myapps\homework2_animation\marbles.h(16): error C2143: syntax error : missing ')' before ';'
+     1>f:\myfiles\external hd files\academic work\due-work\thesis semester1\cclab\of_v0.8.4_vs_release\apps\myapps\homework2_animation\marbles.h(16): error C2059: syntax error : ')'
+     1>f:\myfiles\external hd files\academic work\due-work\thesis semester1\cclab\of_v0.8.4_vs_release\apps\myapps\homework2_animation\src\ofapp.cpp(15): error C2601: 'ofApp::update' : local function definitions are illegal
+                 f:\myfiles\external hd files\academic work\due-work\thesis semester1\cclab\of_v0.8.4_vs_release\apps\myapps\homework2_animation\src\ofapp.cpp(4): this line contains a '{' which has not yet been matched
+     1>f:\myfiles\external hd files\academic work\due-work\thesis semester1\cclab\of_v0.8.4_vs_release\apps\myapps\homework2_animation\src\ofapp.cpp(79): fatal error C1075: end of file found before the left brace '{' at 'f:\myfiles\external hd files\academic work\due-work\thesis semester1\cclab\of_v0.8.4_vs_release\apps\myapps\homework2_animation\src\ofapp.cpp(15)' was matched
+         main.cpp
+     1>f:\myfiles\external hd files\academic work\due-work\thesis semester1\cclab\of_v0.8.4_vs_release\libs\poco\include\poco\streamconverter.h(126): warning C4250: 'Poco::InputStreamConverter' : inherits 'std::basic_istream<_Elem,_Traits>::std::basic_istream<_Elem,_Traits>::_Add_vtordisp1' via dominance
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 f:\programs\vc\include\istream(74) : see declaration of 'std::basic_istream<_Elem,_Traits>::_Add_vtordisp1'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+     1>f:\myfiles\external hd files\academic work\due-work\thesis semester1\cclab\of_v0.8.4_vs_release\libs\poco\include\poco\streamconverter.h(144): warning C4250: 'Poco::OutputStreamConverter' : inherits 'std::basic_ostream<_Elem,_Traits>::std::basic_ostream<_Elem,_Traits>::_Add_vtordisp2' via dominance
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 f:\programs\vc\include\ostream(90) : see declaration of 'std::basic_ostream<_Elem,_Traits>::_Add_vtordisp2'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+     1>f:\myfiles\external hd files\academic work\due-work\thesis semester1\cclab\of_v0.8.4_vs_release\apps\myapps\homework2_animation\marbles.h(16): error C2143: syntax error : missing ')' before ';'
+     1>f:\myfiles\external hd files\academic work\due-work\thesis semester1\cclab\of_v0.8.4_vs_release\apps\myapps\homework2_animation\marbles.h(16): error C2059: syntax error : ')'
+         Marbles.cpp
+     1>f:\myfiles\external hd files\academic work\due-work\thesis semester1\cclab\of_v0.8.4_vs_release\libs\poco\include\poco\streamconverter.h(126): warning C4250: 'Poco::InputStreamConverter' : inherits 'std::basic_istream<_Elem,_Traits>::std::basic_istream<_Elem,_Traits>::_Add_vtordisp1' via dominance
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 f:\programs\vc\include\istream(74) : see declaration of 'std::basic_istream<_Elem,_Traits>::_Add_vtordisp1'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+     1>f:\myfiles\external hd files\academic work\due-work\thesis semester1\cclab\of_v0.8.4_vs_release\libs\poco\include\poco\streamconverter.h(144): warning C4250: 'Poco::OutputStreamConverter' : inherits 'std::basic_ostream<_Elem,_Traits>::std::basic_ostream<_Elem,_Traits>::_Add_vtordisp2' via dominance
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 f:\programs\vc\include\ostream(90) : see declaration of 'std::basic_ostream<_Elem,_Traits>::_Add_vtordisp2'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+     1>f:\myfiles\external hd files\academic work\due-work\thesis semester1\cclab\of_v0.8.4_vs_release\apps\myapps\homework2_animation\marbles.h(16): error C2143: syntax error : missing ')' before ';'
+     1>f:\myfiles\external hd files\academic work\due-work\thesis semester1\cclab\of_v0.8.4_vs_release\apps\myapps\homework2_animation\marbles.h(16): error C2059: syntax error : ')'
+     1>f:\myfiles\external hd files\academic work\due-work\thesis semester1\cclab\of_v0.8.4_vs_release\apps\myapps\homework2_animation\marbles.cpp(29): error C2143: syntax error : missing ';' before '}'
+     1>f:\myfiles\external hd files\academic work\due-work\thesis semester1\cclab\of_v0.8.4_vs_release\apps\myapps\homework2_animation\marbles.cpp(34): error C2601: 'Marbles::display' : local function definitions are illegal
+                 f:\myfiles\external hd files\academic work\due-work\thesis semester1\cclab\of_v0.8.4_vs_release\apps\myapps\homework2_animation\marbles.cpp(23): this line contains a '{' which has not yet been matched
+     1>f:\myfiles\external hd files\academic work\due-work\thesis semester1\cclab\of_v0.8.4_vs_release\apps\myapps\homework2_animation\marbles.cpp(40): error C2039: 'make' : is not a member of 'Marbles'
+                 f:\myfiles\external hd files\academic work\due-work\thesis semester1\cclab\of_v0.8.4_vs_release\apps\myapps\homework2_animation\marbles.h(5) : see declaration of 'Marbles'
+     1>f:\myfiles\external hd files\academic work\due-work\thesis semester1\cclab\of_v0.8.4_vs_release\apps\myapps\homework2_animation\marbles.cpp(40): error C2601: 'make' : local function definitions are illegal
+                 f:\myfiles\external hd files\academic work\due-work\thesis semester1\cclab\of_v0.8.4_vs_release\apps\myapps\homework2_animation\marbles.cpp(23): this line contains a '{' which has not yet been matched
+     1>f:\myfiles\external hd files\academic work\due-work\thesis semester1\cclab\of_v0.8.4_vs_release\apps\myapps\homework2_animation\marbles.cpp(48): fatal error C1075: end of file found before the left brace '{' at 'f:\myfiles\external hd files\academic work\due-work\thesis semester1\cclab\of_v0.8.4_vs_release\apps\myapps\homework2_animation\marbles.cpp(23)' was matched
+         Generating Code...
+     1>Done Building Project "F:\MyFiles\External HD files\Academic Work\DUE-work\Thesis Semester1\CClab\of_v0.8.4_vs_release\apps\myApps\Homework2_animation\emptyExample.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:21.05
