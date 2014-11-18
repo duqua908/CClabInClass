@@ -13,4 +13,5 @@ I had a lot of ideas but ended up limited by my skills. This last iteration is a
 ## Sources 
 For this project I relied heavily on examples provided by box2d, the OF addon as well as the default OF sound example ( where I got the mp3). I find OF documentation online to be pretty confusing. 
 
+// For some reason when the mouth appears the body gets shifted off to the side and I can't figure out why. 
 // the pseudo code is in the project folder
